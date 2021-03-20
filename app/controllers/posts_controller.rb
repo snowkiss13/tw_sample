@@ -32,12 +32,12 @@ class PostsController < ApplicationController
     @post.destroy
     redirect_to posts_path, notice:"ブログを削除しました！"
   end
-  def confirmt
+  def confirm
     @post = Post.new(post_params)
   end
   private
-  def post_params
-    params.require(:post).permit(:title, :content)
+  def blog_params
+    params.require(:blog).permit(:content)
   end
   def set_post
     @post = Post.find(params[:id])
