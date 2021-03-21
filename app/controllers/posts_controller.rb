@@ -36,8 +36,8 @@ class PostsController < ApplicationController
     @post = Post.new(post_params)
   end
   private
-  def blog_params
-    params.require(:blog).permit(:content)
+  def post_params
+    params.require(:post).permit(:content)
   end
   def set_post
     @post = Post.find(params[:id])

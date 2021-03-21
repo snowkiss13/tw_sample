@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="新規投稿ページを作成">
-      <change afterPath="$PROJECT_DIR$/app/views/posts/edit.html.erb" afterDir="false" />
+    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="ActiveModel::UnknownAttributeError in PostsController#create&#10;unknown attribute 'content' for Post.&#10;&#10;と新規投稿時に表示され先に進めない。&#10;posts_controller.rbをいじる。&#10;が、すすまない。">
+      <change afterPath="$PROJECT_DIR$/db/migrate/20210320232146_add_content_to_posts.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +16,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1pxVVzfL13BFroSGD2plharO4wM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -24,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -158,7 +170,7 @@
       <updated>1616124755893</updated>
       <workItem from="1616124759489" duration="3685000" />
       <workItem from="1616131942308" duration="2090000" />
-      <workItem from="1616167023220" duration="2524000" />
+      <workItem from="1616167023220" duration="8904000" />
     </task>
     <task id="LOCAL-00001" summary="posts_controller.rbを修正する">
       <created>1616124818683</created>
@@ -174,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616133006061</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ActiveModel::UnknownAttributeError in PostsController#create&#10;unknown attribute 'content' for Post.&#10;&#10;と新規投稿時に表示され先に進めない。&#10;posts_controller.rbをいじる。&#10;が、すすまない。">
+      <created>1616237976458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616237976458</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,22 +212,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="posts_controller.rbを修正する" />
     <MESSAGE value="新規投稿ページを作成" />
-    <option name="LAST_COMMIT_MESSAGE" value="新規投稿ページを作成" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/posts_controller.rb</url>
-          <line>39</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="ActiveModel::UnknownAttributeError in PostsController#create&#10;unknown attribute 'content' for Post.&#10;&#10;と新規投稿時に表示され先に進めない。&#10;posts_controller.rbをいじる。&#10;が、すすまない。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ActiveModel::UnknownAttributeError in PostsController#create&#10;unknown attribute 'content' for Post.&#10;&#10;と新規投稿時に表示され先に進めない。&#10;posts_controller.rbをいじる。&#10;が、すすまない。" />
   </component>
 </project>
