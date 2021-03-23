@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="新規投稿ができるようになった、バリデーションの設定が違っていた">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/normalize.css" afterDir="false" />
+    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="CSSファイルを適用した、application.css">
+      <change afterPath="$PROJECT_DIR$/app/assets/images/TOP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/banner02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/banner03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/business.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/company.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/otoiawase.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/shakehand.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/stylesheets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/app/views/posts" />
     </key>
@@ -170,7 +180,11 @@
       <updated>1616124755893</updated>
       <workItem from="1616124759489" duration="3685000" />
       <workItem from="1616131942308" duration="2090000" />
-      <workItem from="1616167023220" duration="21221000" />
+      <workItem from="1616167023220" duration="23770000" />
+      <workItem from="1616481032935" duration="417000" />
+      <workItem from="1616481694160" duration="60000" />
+      <workItem from="1616481927601" duration="55000" />
+      <workItem from="1616482213804" duration="470000" />
     </task>
     <task id="LOCAL-00001" summary="posts_controller.rbを修正する">
       <created>1616124818683</created>
@@ -207,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616473308450</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CSSファイルを適用した、application.css">
+      <created>1616473930137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616473930137</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +253,7 @@
     <MESSAGE value="ActiveModel::UnknownAttributeError in PostsController#create&#10;unknown attribute 'content' for Post.&#10;&#10;と新規投稿時に表示され先に進めない。&#10;posts_controller.rbをいじる。&#10;が、すすまない。" />
     <MESSAGE value="post_paramsが定義されていなかったため、post_controllerを編集する" />
     <MESSAGE value="新規投稿ができるようになった、バリデーションの設定が違っていた" />
-    <option name="LAST_COMMIT_MESSAGE" value="新規投稿ができるようになった、バリデーションの設定が違っていた" />
+    <MESSAGE value="CSSファイルを適用した、application.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSSファイルを適用した、application.css" />
   </component>
 </project>
