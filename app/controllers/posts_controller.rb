@@ -7,14 +7,17 @@ class PostsController < ApplicationController
   def new
     @post = Post.new
   end
+
   def create
-    @post = Post.create(post_params)
-    if @post.save
-      # 一覧画面へ遷移しブログ作成しました！のメッセージを表示する
-      redirect_to posts_path, notice: "ブログを作成しました！"
-    else
-      # 入力フォーム再描画
+    @post = Post.new(post_params)
+    if params[:back]
       render :new
+    else
+      if @post.save
+        redirect_to posts_path, notice: "投稿完了"
+      else
+        render :new
+      end
     end
   end
   def update

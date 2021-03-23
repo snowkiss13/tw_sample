@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="ActiveModel::UnknownAttributeError in PostsController#create&#10;unknown attribute 'content' for Post.&#10;&#10;と新規投稿時に表示され先に進めない。&#10;posts_controller.rbをいじる。&#10;が、すすまない。">
-      <change afterPath="$PROJECT_DIR$/db/migrate/20210320232146_add_content_to_posts.rb" afterDir="false" />
+    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="post_paramsが定義されていなかったため、post_controllerを編集する">
+      <change afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/post.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/post.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20210301214034_create_posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20210318162322_drop_posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20210320232146_add_content_to_posts.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +55,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -170,7 +176,7 @@
       <updated>1616124755893</updated>
       <workItem from="1616124759489" duration="3685000" />
       <workItem from="1616131942308" duration="2090000" />
-      <workItem from="1616167023220" duration="8904000" />
+      <workItem from="1616167023220" duration="20595000" />
     </task>
     <task id="LOCAL-00001" summary="posts_controller.rbを修正する">
       <created>1616124818683</created>
@@ -193,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616237976458</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="post_paramsが定義されていなかったため、post_controllerを編集する">
+      <created>1616308561053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616308561053</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +229,7 @@
     <MESSAGE value="posts_controller.rbを修正する" />
     <MESSAGE value="新規投稿ページを作成" />
     <MESSAGE value="ActiveModel::UnknownAttributeError in PostsController#create&#10;unknown attribute 'content' for Post.&#10;&#10;と新規投稿時に表示され先に進めない。&#10;posts_controller.rbをいじる。&#10;が、すすまない。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ActiveModel::UnknownAttributeError in PostsController#create&#10;unknown attribute 'content' for Post.&#10;&#10;と新規投稿時に表示され先に進めない。&#10;posts_controller.rbをいじる。&#10;が、すすまない。" />
+    <MESSAGE value="post_paramsが定義されていなかったため、post_controllerを編集する" />
+    <option name="LAST_COMMIT_MESSAGE" value="post_paramsが定義されていなかったため、post_controllerを編集する" />
   </component>
 </project>
