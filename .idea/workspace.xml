@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="画像イメージを変更し余計なタグを削除">
+    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="ヘッダーが画面遷移しても表示されるよう、application.html.erbを編集する">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +177,8 @@
       <workItem from="1616481927601" duration="55000" />
       <workItem from="1616482213804" duration="723000" />
       <workItem from="1616573689853" duration="3521000" />
-      <workItem from="1616626238412" duration="1467000" />
+      <workItem from="1616626238412" duration="2515000" />
+      <workItem from="1616673823438" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="posts_controller.rbを修正する">
       <created>1616124818683</created>
@@ -233,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616630813689</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ヘッダーが画面遷移しても表示されるよう、application.html.erbを編集する">
+      <created>1616631237437</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616631237437</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +271,7 @@
     <MESSAGE value="CSSファイルを適用した、application.css" />
     <MESSAGE value="新規投稿をサイドバーに表示した" />
     <MESSAGE value="画像イメージを変更し余計なタグを削除" />
-    <option name="LAST_COMMIT_MESSAGE" value="画像イメージを変更し余計なタグを削除" />
+    <MESSAGE value="ヘッダーが画面遷移しても表示されるよう、application.html.erbを編集する" />
+    <option name="LAST_COMMIT_MESSAGE" value="ヘッダーが画面遷移しても表示されるよう、application.html.erbを編集する" />
   </component>
 </project>
