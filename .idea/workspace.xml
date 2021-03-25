@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="新規投稿をサイドバーに表示した">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="画像イメージを変更し余計なタグを削除">
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +175,7 @@
       <workItem from="1616481927601" duration="55000" />
       <workItem from="1616482213804" duration="723000" />
       <workItem from="1616573689853" duration="3521000" />
-      <workItem from="1616626238412" duration="1155000" />
+      <workItem from="1616626238412" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="posts_controller.rbを修正する">
       <created>1616124818683</created>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616483539762</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="画像イメージを変更し余計なタグを削除">
+      <created>1616630813689</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616630813689</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +260,7 @@
     <MESSAGE value="新規投稿ができるようになった、バリデーションの設定が違っていた" />
     <MESSAGE value="CSSファイルを適用した、application.css" />
     <MESSAGE value="新規投稿をサイドバーに表示した" />
-    <option name="LAST_COMMIT_MESSAGE" value="新規投稿をサイドバーに表示した" />
+    <MESSAGE value="画像イメージを変更し余計なタグを削除" />
+    <option name="LAST_COMMIT_MESSAGE" value="画像イメージを変更し余計なタグを削除" />
   </component>
 </project>

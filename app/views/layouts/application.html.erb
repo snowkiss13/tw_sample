@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <header class="header clearfix">
+      <!--    <a href="index.html">-->
+      <%#= image_tag 'logo.png' %>
+      <img src="/assets/logo.png" class="logo_image">
+      </a>
+      <nav>
+        <ul class="top_menu clearfix">
+
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="#">会社概要</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
     <title>TwSample</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -13,6 +28,6 @@
     <%= yield %>
   </body>
   <footer class="footer">
-    <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+    <p>Copyright © 2021 TAKAHIKO TOZAWA.</p>
   </footer>
 </html>

@@ -1,25 +1,11 @@
 <div class="container">
-  <header class="header clearfix">
-<!--    <a href="index.html">-->
-      <%#= image_tag 'logo.png' %>
-      <img src="/assets/logo.png" class="logo_image">
-    </a>
-    <nav>
-      <ul class="top_menu clearfix">
 
-        <li><a href="index.html">ホーム</a></li>
-        <li><a href="business.html">事業内容</a></li>
-        <li><a href="#">会社概要</a></li>
-        <li><a href="#">お問い合わせ</a></li>
-      </ul>
-    </nav>
-  </header>
   <img src="/assets/business.png" class="image_area">
   <div class="wrapper clearfix">
     <aside class="side_menu">
       <nav>
         <ul>
-          <li class="point"><%= link_to '新規投稿', new_post_path %></li>
+          <li class="new"><%= link_to '新規投稿', new_post_path %></li>
         </ul>
       </nav>
     </aside>
