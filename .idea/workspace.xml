@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="Gitignoreを外してみた">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="rails db:migrateした" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +180,7 @@
       <workItem from="1617401373270" duration="2179000" />
       <workItem from="1617620472243" duration="833000" />
       <workItem from="1617860686233" duration="12140000" />
-      <workItem from="1618135221051" duration="1080000" />
+      <workItem from="1618135221051" duration="1318000" />
     </task>
     <task id="LOCAL-00001" summary="posts_controller.rbを修正する">
       <created>1616124818683</created>
@@ -303,7 +301,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618137132837</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="rails db:migrateした">
+      <created>1618144063319</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1618144063319</updated>
+    </task>
+    <task id="LOCAL-00019" summary="rails db:migrateした">
+      <created>1618144072593</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1618144072593</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +350,7 @@
     <MESSAGE value="confirmを表示するためroutes" />
     <MESSAGE value="確認画面を表示するためnew時にconfirmを実行するように変更する" />
     <MESSAGE value="Gitignoreを外してみた" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gitignoreを外してみた" />
+    <MESSAGE value="rails db:migrateした" />
+    <option name="LAST_COMMIT_MESSAGE" value="rails db:migrateした" />
   </component>
 </project>
