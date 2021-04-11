@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="確認画面を表示するためnew時にconfirmを実行するように変更する">
+    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="Gitignoreを外してみた">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +182,7 @@
       <workItem from="1617401373270" duration="2179000" />
       <workItem from="1617620472243" duration="833000" />
       <workItem from="1617860686233" duration="12140000" />
-      <workItem from="1618135221051" duration="587000" />
+      <workItem from="1618135221051" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="posts_controller.rbを修正する">
       <created>1616124818683</created>
@@ -282,7 +282,28 @@
       <option name="project" value="LOCAL" />
       <updated>1618128751170</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="確認画面を表示するためnew時にconfirmを実行するように変更する">
+      <created>1618136919230</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1618136919230</updated>
+    </task>
+    <task id="LOCAL-00016" summary="確認画面を表示するためnew時にconfirmを実行するように変更する">
+      <created>1618136969684</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618136969684</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Gitignoreを外してみた">
+      <created>1618137132837</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618137132837</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +337,7 @@
     <MESSAGE value="タイムゾーンの設定で記入場所が間違っていたため修正" />
     <MESSAGE value="confirmを表示するためroutes" />
     <MESSAGE value="確認画面を表示するためnew時にconfirmを実行するように変更する" />
-    <option name="LAST_COMMIT_MESSAGE" value="確認画面を表示するためnew時にconfirmを実行するように変更する" />
+    <MESSAGE value="Gitignoreを外してみた" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gitignoreを外してみた" />
   </component>
 </project>
