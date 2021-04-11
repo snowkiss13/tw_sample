@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="confirmを表示するためroutes">
-      <change beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterDir="false" />
+    <list default="true" id="dff5034c-1e83-4445-8bba-c011ae4f5783" name="デフォルト変更リスト" comment="確認画面を表示するためnew時にconfirmを実行するように変更する">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -181,7 +181,8 @@
       <workItem from="1617103956864" duration="1151000" />
       <workItem from="1617401373270" duration="2179000" />
       <workItem from="1617620472243" duration="833000" />
-      <workItem from="1617860686233" duration="11669000" />
+      <workItem from="1617860686233" duration="12140000" />
+      <workItem from="1618135221051" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="posts_controller.rbを修正する">
       <created>1616124818683</created>
@@ -274,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618128586199</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="確認画面を表示するためnew時にconfirmを実行するように変更する">
+      <created>1618128751170</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618128751170</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +302,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="posts_controller.rbを修正する" />
     <MESSAGE value="新規投稿ページを作成" />
     <MESSAGE value="ActiveModel::UnknownAttributeError in PostsController#create&#10;unknown attribute 'content' for Post.&#10;&#10;と新規投稿時に表示され先に進めない。&#10;posts_controller.rbをいじる。&#10;が、すすまない。" />
@@ -306,6 +315,7 @@
     <MESSAGE value="タイムゾーンを設定" />
     <MESSAGE value="タイムゾーンの設定で記入場所が間違っていたため修正" />
     <MESSAGE value="confirmを表示するためroutes" />
-    <option name="LAST_COMMIT_MESSAGE" value="confirmを表示するためroutes" />
+    <MESSAGE value="確認画面を表示するためnew時にconfirmを実行するように変更する" />
+    <option name="LAST_COMMIT_MESSAGE" value="確認画面を表示するためnew時にconfirmを実行するように変更する" />
   </component>
 </project>
